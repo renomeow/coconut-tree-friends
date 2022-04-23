@@ -149,3 +149,28 @@ div.app-cont.whoyouare h1 {
 	padding: 5px;
 	color: var(--clair);
 }
+
+/**FICHE agences**/
+#wdl.apptop h1, #wdl .app-cont p::before, #wdl .story-block d, #wdl t{color: var(--wdl-f);}
+#wdl .app-cont.whoyouare h1 {background-color: var(--wdl-l);border: 1px solid var(--wdl-f);color:white;}
+#wdl .bullet, #wdl .story-block d::before{background-color: var(--wdl-l);border: 1px solid var(--wdl-f);color: var(--wdl-f);}
+
+#ym.apptop h1, #ym .app-cont p::before, #ym .story-block d, #ym t{color: var(--ym-f);}
+#ym .app-cont.whoyouare h1 {background-color: var(--ym-l);border: 1px solid var(--ym-f);color:white;}
+#ym .bullet, #ym .story-block d::before{background-color: var(--ym-l);border: 1px solid var(--ym-f);color: var(--ym-f);}
+
+#staff.apptop h1, #staff .app-cont p::before, #staff .story-block d, #staff t{color: var(--staff-f);}
+#staff .app-cont.whoyouare h1 {background-color: var(--staff-l);border: 1px solid var(--staff-f);color:white;}
+#staff .bullet, #staff .story-block d::before{background-color: var(--staff-l);border: 1px solid var(--staff-f);color: var(--staff-f);}
+
+#flow.apptop h1, #flow .app-cont p::before, #flow .story-block d, #flow t{color: var(--fe-f);}
+#flow .app-cont.whoyouare h1 {background-color: var(--fe-l);border: 1px solid var(--fe-f);color:white;}
+#flow .bullet, #flow .story-block d::before{background-color: var(--fe-l);border: 1px solid var(--fe-f);color: var(--fe-f);}
+
+#kg.apptop h1, #kg .app-cont p::before, #kg .story-block d, #kg t{color: var(--kg-f);}
+#kg .app-cont.whoyouare h1 {background-color: var(--kg-l);border: 1px solid var(--kg-f);color:white;}
+#kg .bullet, #kg .story-block d::before{background-color: var(--kg-l);border: 1px solid var(--kg-f);color: var(--kg-f);}
+
+#ne.apptop h1, #ne .app-cont p::before, #ne .story-block d, #ne t{color: var(--ne-f);}
+#ne .app-cont.whoyouare h1 {background-color: var(--ne-l);border: 1px solid var(--ne-f);color:white;}
+#ne .bullet, #ne .story-block d::before{background-color: var(--ne-l);border: 1px solid var(--ne-f);color: var(--ne-f);}
