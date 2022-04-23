@@ -1,0 +1,214 @@
+/*CATÉ 2021*/
+.forumline{background: #f0f0f000;border: none;}
+
+.catefold {
+	background: var(--blanc);
+	border: var(--blanc) 5px solid;
+	display: grid;
+	font-family: var(--bodyfont);
+	grid-gap: 0;
+	grid-template-areas: "description msgs avatar lastmess" "sousfo sousfo sousfo sousfo";
+	grid-template-columns: 450px 133px 80px auto;
+	grid-template-rows: 110px 27px;
+	margin-top: 5px;
+	outline: var(--bord-g);
+	overflow: hidden;
+}
+
+
+
+.catwrapper {
+	background: url(https://i.imgur.com/3FbGyWS.png), var(--grad);
+	border-bottom: 0.5rem solid var(--blanc);
+	line-height: 4rem;
+	padding-left: 2rem;
+	text-align: left;
+	outline: var(--bord-g);
+}
+
+.catwrapper h2 {
+	color: var(--blanc);
+	font-family: raleway;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: var(--gris) 3px 3px 0;
+}
+
+.cattwoiconfull {
+	background: var(--grad);
+	display: block;
+	height: 33px;
+	margin: -2px;
+	width: 33px;
+	padding: 6px 0 0 5px;
+	border-radius: 100%;
+	box-sizing: border-box;
+	float: right;
+	margin-right: 9px;
+}
+.cattwoiconfull span {
+	color: var(--blanc);
+	display: block;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	margin: 4px 0 0 4px;
+}
+
+.cattwoposts, .cattwotopics {
+	margin-top: 2px;
+}
+
+.cateside {
+	border: 1px solid var(--gris);
+	display: grid;
+	grid-area: description;
+	overflow: hidden;
+	padding: .5rem;
+	position: relative;
+	place-items: center;
+	grid-template-areas: "image titre";
+	grid-template-columns: 100px auto;
+	background: url(https://i.imgur.com/3FbGyWS.png), var(--grad);
+}
+
+.catdesc {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	bottom: 8px;
+	right: 8px;
+}
+
+.catdesc img {
+	filter: drop-shadow(2px 2px 2px #202020);
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+	mix-blend-mode: soft-light;
+}
+
+.catimage {
+	grid-area: image;
+	z-index: 3;
+}
+
+.cattitre {
+	border: 2px solid var(--eee);
+	grid-area: titre;
+	letter-spacing: -1px;
+	line-height: 2;
+	text-transform: uppercase;
+	z-index: 3;
+	width: 250px;
+	margin-left: -26px;
+	border-radius: 100px;
+	padding-left: 50px;
+	background-blend-mode: darken;
+	background-color: var(--clearer);
+}
+
+.catcattwotitle.forumlink {
+	font-size: 1rem;
+	text-align: left;
+	letter-spacing: 0px;
+	word-spacing: 1px;
+}
+
+a.catcattwotitle{color:var(--blanc) !important;}
+
+.catlastpost {
+	border: var(--gris) 1px solid;
+	border-width: 1px 1px 1px 0;
+	display: grid;
+	font-family: var(--montserrat);
+	font-size: 8px;
+	font-weight: 700;
+	grid-area: lastmess;
+	text-transform: uppercase;
+	display: grid;
+	place-items: center;
+ 	text-align:center;
+}
+
+
+.catlastpost a{font:bold 8px !important;letter-spacing:1px;}
+.messnumber, .topsnumber {
+	border: solid var(--gris);
+	padding: 0.77rem 0 0 0.8rem;
+}
+
+.topsnumber {border-width: 1px 0;}
+.messnumber {border-width: 0 0 1px 0;}
+
+.wrapicon {background: #d2c0d0;border-radius: 0 0 31px 0;padding: 4px 4px 4px 4px;border: 1px solid #c1618c;}
+.wrapicon img {border: #eda1c3 6px solid;border-radius: 100%;background: #eda1c3;}
+
+.soufowrap {
+	border: var(--gris) 0 solid;
+	border-width: 0 1px 1px;
+	grid-area: sousfo;
+}
+
+.msgwrapper {
+	grid-area: msgs;
+	display: grid;
+	grid-template-rows: repeat(2,1fr);
+}
+
+.catatar img {
+	border: var(--bord-g);
+	border-radius: 0;
+	filter: grayscale(100%) brightness(130%) contrast(50%);
+	height: 90px;
+	object-fit: cover;
+	width: 60px;
+}
+
+.catatar {
+	background: var(--eee);
+	border: 1px solid var(--gris);
+	display: grid;
+	grid-area: avatar;
+	padding: 8px;
+	place-items: center;
+}
+.lastpost-avatar {
+	float: none;
+	padding: 0;
+}
+
+.catfoursubfo {
+	margin-left: .5rem;
+	height: 26px;
+	text-transform: uppercase;
+	font-family: var(--montserrat);
+}
+
+.catfoursubfolink a {
+	-webkit-transition: all .3s linear;
+	border-bottom: 1px solid;
+	font-size: 7px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin: 4px;
+	position: relative;
+	transition: all .3s linear;
+}
+
+.catfoursubfolink a::after {
+	-webkit-transition: all .3s linear;
+	background: var(--sombre);
+	bottom: -1px;
+	content: "";
+	height: 1px;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transition: all .3s ease-in-out 0;
+	visibility: hidden;
+}
+.catfoursubfolink a:hover:after{width: 100%;visibility: visible;transform: scaleX(1);}
