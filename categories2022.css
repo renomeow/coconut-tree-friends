@@ -212,3 +212,157 @@ a.catcattwotitle{color:var(--blanc) !important;}
 	visibility: hidden;
 }
 .catfoursubfolink a:hover:after{width: 100%;visibility: visible;transform: scaleX(1);}
+
+/*LISTE DES SUJETS*/
+
+.sujetsboxwrap {
+	background: var(--blanc);
+	border: 5px solid var(--blanc);
+	display: grid;
+	grid-template-areas: "image titre auteur auteur" "image people reponses vues" "description description reponses vues";
+	outline: var(--bord-g);
+	grid-template-rows: repeat(3,25px);
+	grid-template-columns: 50px 495px 1fr 1fr;
+}
+
+.sujetsbox {
+	background: var(--eee);
+	border: var(--bord-g);
+	display: grid;
+	grid-area: image;
+	place-items: center;
+}
+
+.sujetboximg img {
+	border: 3Px solid var(--gris);
+	border-radius: 100%;
+	height: 37px;
+	margin-left: 1px;
+	width: 37px;
+}
+
+.sujetboxttl {
+	background: url(https://i.imgur.com/3FbGyWS.png),var(--grad);
+	border: 1px solid var(--gris);
+	color: var(--blanc);
+	font-family: var(--bodyfont);
+	grid-area: titre;
+	line-height: 25px;
+	margin-left: -1px;
+	overflow: hidden;
+	padding-left: 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	letter-spacing: 1px;
+}
+
+.sujetboxauth {
+	background: var(--blanc);
+	border: var(--bord-g);
+	border-width: 0 1px 1px 0;
+	font-family: var(--montserrat);
+	font-size: 8px;
+	font-weight: 500;
+	grid-area: people;
+	line-height: 26px;
+	padding: 0 0 0 10px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.sujetboxauth strong {
+	font-size: 8px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.sujetboxauth .sf.sf-chevron-right {font: 6px;}
+
+.sujetboxpagi {
+	background: var(--blanc);
+	border: var(--bord-g);
+	border-radius: 4px;
+	font-family: var(--montserrat);
+	font-size: 8px;
+	font-weight: 600;
+	line-height: 4px;
+	padding: 2px 3px 5px 4px;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 12;
+	position: absolute;
+	top: 4px;
+	right: 26px;
+	width: 156px;
+	bottom: 4px;
+}
+
+.sujetboxparti {
+	padding: 1px 0px 0 0;
+	float: right;
+}
+
+
+.sujetboxdescr {
+	border: var(--bord-g);
+	border-width: 0 1px 1px;
+	color: #757575;
+	font-family: var(--bodyfont);
+	font-size: 8px;
+	font-weight: 600;
+	grid-area: description;
+	letter-spacing: .5px;
+	padding: 7px;
+	text-transform: uppercase;
+}
+.sujetboxcrea {
+	border: var(--bord-g);
+	border-width: 1px 1px 1px 0;
+	color: #757575;
+	font-family: var(--montserrat);
+	font-size: 8px;
+	font-weight: bold;
+	grid-area: auteur;
+	padding: 7px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.sujetboxrep {
+	border: var(--bord-g);
+	border-width: 0 1px 1px 0;
+	grid-area: reponses;
+	position: relative;
+	display: grid;
+	grid-template-rows: repeat(2,24px);
+}
+.sujetboxvie {
+	border: var(--bord-g);
+	border-width: 0 1px 1px 0;
+	grid-area: vues;
+	position: relative;
+	display: grid;
+	grid-template-rows: repeat(2,24px);
+}
+.boxrepnb, .sujetboxvienb {
+	background: #dedede30;
+	color: var(--color-text);
+	font-family: var(--montserrat);
+	font-size: 12px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 2;
+}
+.boxreptxt, .sujetboxvietxt {
+	border-top: var(--bord-g);
+	font-family: var(--montserrat);
+	font-size: 8px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	height: 100%;
+	width: 100%;
+  line-height:3;
+}
