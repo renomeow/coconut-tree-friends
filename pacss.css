@@ -13,27 +13,30 @@
 }
 ul.menupa {
 	position: absolute;
+	bottom: 0px;
 	background-color: white;
-	width: 10%;
-	left: 5px;
+	width: 50%;
+	left: 25%;
 	text-align: center;
 	padding: 0;
 	margin: 0;
+	height: 39px;
+	border-radius: 38px;
 	z-index: 4;
-	top: 6px;
-	bottom: 6px;
-	border: 1px solid #ccc;
-	display: flex;
-	align-content: space-around;
-	flex-wrap: wrap;
 }
-   
-.menupa li {
+    
+ .menupa li {
 	display: inline-block;
+	margin: 5px;
 	margin-top: -20px;
+	background-color: white;
 	padding: 10px;
+	border-radius: 100%;
+	color: #d6d6d6;
 	font-size: 28px;
-	width: 100%;
+	border: 1px solid #cccccc50;
+	height: 31px;
+	width: 31px;
 	z-index: 99;
 }
     
@@ -515,7 +518,33 @@ infos {
 	color: #54bd1a;
 }
     
-
+.PA x {
+	content: "";
+	display: block;
+	width: 101px;
+	height: 100px;
+	border: 50px solid #fff;
+	border-radius: 100%;
+	position: absolute;
+	bottom: -50px;
+	left: 64px;
+	z-index: 0;
+	clip-path: polygon(50% 60%, 100% 60%, 100% 100%, 50% 100%);
+}
+    
+ .PA y {
+	content: "";
+	display: block;
+	width: 101px;
+	height: 100px;
+	border: 50px solid #fff;
+	border-radius: 100%;
+	position: absolute;
+	bottom: -50px;
+	right: 65px;
+	z-index: 0;
+	clip-path: polygon(0% 60%, 50% 60%, 50% 100%, 0% 100%);
+}
     
     
     .ytbzone {
@@ -645,3 +674,4 @@ infos {
     .dark-mode .youtubepagrid img {
 	border-bottom: 3px solid #ff00008c;
 }
+    
