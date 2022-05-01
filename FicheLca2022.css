@@ -140,7 +140,6 @@ div.app-cont.whoyouare h1 {
 
 .app-cont p:nth-child(2n) {
 	color: #9b9ea2;
-	background-color: #505050;
 }
 
 .app-cont p::before {
