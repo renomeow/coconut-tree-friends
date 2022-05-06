@@ -1,0 +1,166 @@
+
+
+.toktok {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	margin: auto;
+	overflow: hidden;
+	padding: 1em;
+	width: 351;
+	box-sizing: border-box;
+}
+
+.toktok-profile img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 100%;
+	margin: auto;
+	display: block;
+}
+
+.toktok-name {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.toktok-profile {
+	text-align: center;
+}
+
+.toktok-post .toktok-profile {
+	background: linear-gradient(black,black,rgba(0,0,0,0.88), transparent);
+	border-radius: 5px;
+	border-top: 4px solid #dc143c;
+	height: 62px;
+	left: 13px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	top: 31px;
+	width: 303px;
+	z-index: 200;
+}
+
+.toktok-post .toktok-profile img {
+	border-radius: 100%;
+	display: block;
+	height: 60px;
+	margin: auto;
+	object-fit: cover;
+	width: 60px;
+	float: left;
+	margin-left: 9px;
+}
+
+.toktok-post .toktok-name {
+	float: left;
+	/* font-size: 14px; */
+	font-weight: 700;
+	margin-left: 12px;
+	margin-top: -15px;
+	color: white;
+	font-size: 12px;
+	width: 126px;
+	/* border: 1px solid yellow; */
+	text-overflow: ellipsis;
+	height: 19px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.toktok-post .toktok-profile::after {
+	content: "voir le profil";
+	color: white;
+	position: relative;
+	top: -24px;
+	background-color: crimson;
+	padding: 0.5em;
+	font-family: var(--bodyfont);
+	font-weight: bold;
+	float: right;
+	border-radius: 4px;
+}
+
+.toktok-post .toktok-descr {
+	background-color: #fff;
+	border: 1px solid #e2e3e4;
+	border-radius: 0 0 8px 8px;
+	box-sizing: border-box;
+	left: 0px;
+	min-height: 145px;
+	padding: 1em;
+	position: relative;
+	top: -182px;
+	width: 325px;
+}
+
+.toktok-ide {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.toktok-post k {
+	font-weight: bold;
+}
+
+.toktok-post {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	margin: auto;
+	overflow: hidden;
+	padding: 1em;
+	width: 351px;
+	height: 768px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.toktok-originalsong {
+	position: absolute;
+	bottom: 8px;
+}
+
+.toktok-topwrap {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	font-size: 17px;
+	margin-bottom: 13px;
+}
+
+.toktokusername {
+	font-weight: bold;
+}
+
+.toktok-abos dt i {
+	display: block;
+	font-weight: normal;
+	font-style: normal;
+	color: #999999;
+}
+
+.toktok-abos dt {
+	display: inline-block;
+	font-weight: bold;
+	padding: 1em;
+	width: 77px;
+}
+
+.toktok-prof {
+	width: 82%;
+	/* margin: auto; */
+	padding: 0;
+	margin: auto;
+}
+
+.toktok-prof span {
+	border: 1px solid #d7d7d7;
+	padding: 0.8em 1em;
+	margin: 0.2em;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 6px;
+	letter-spacing: 0.4;
+}
