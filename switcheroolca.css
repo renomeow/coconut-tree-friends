@@ -312,3 +312,40 @@
 .monomer-close:hover {
     opacity: 0.8;
 }
+
+#switcheroo {
+	background: linear-gradient(-180deg,var(--ico-cl), var(--background));
+	bottom: 0;
+	font-family: raleway;
+	font-size: 12px !important;
+	position: absolute;
+	top: -21px;
+	margin-left: -80px;
+}
+
+#switcheroo:hover::after {
+	background-color: var(--ico-cl);
+	transition: 1s;
+}
+
+#switcheroo::after {
+	content: url(https://i.imgur.com/wZYVJgT.png);
+	left: 100%;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 6rem;
+	border-radius: 0 1rem 1rem 0;
+	color: #fff;
+	font-family: cappuccicons;
+	display: grid;
+	place-items: center;
+	font-size: 25px;
+	transition: 1s;
+	padding: 10px;
+}
+
+#switcheroo:hover {
+	margin-left: 0px;
+	transition: 1s;
+}
