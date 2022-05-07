@@ -5,6 +5,6 @@
         for (var i = 0 ; i < bolide.length ; i++ ) {
             bolide[i].classList.remove("visible");
         }
-        var buttonPage = document.getElementById("panneau" + echoing[1]);
+        var buttonPage = document.getElementById("lien" + echoing[1]);
         buttonPage.classList.add("visible");
         };
