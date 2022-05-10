@@ -5,6 +5,7 @@
     text-align: center;
     outline: 10px solid white;
     background-size: cover;
+    background:var(--ficheliens);
 }
 
 .ficheliens_titles {
@@ -15,6 +16,7 @@
     margin: 0;
     color: white;
     outline: 10px solid white;
+    background:var(--ficheliens);
 }
 
 .ficheliens_img {
@@ -125,6 +127,7 @@ relation span {
     margin: 0 20px 7px 0;
     float: left;
     clear: both;
+    background: var(--ficheliens);
 }
 
 .relationbox p {
@@ -164,6 +167,7 @@ relation span {
 }
 
 .jaugeliens span {
+    background: var(--ficheliens);
     display: block;
     height: 100%;
     margin-top: 8px;
@@ -220,6 +224,7 @@ relation span {
     justify-content: space-around;
     overflow-x: hidden;
     overflow-y: hidden;
+    background: var(--ficheliens); 
 }
 
 .lookfor p {
@@ -242,9 +247,11 @@ relation span {
     padding-left: 15px;
     padding-top: 5px;
     margin-bottom: 6px;
+    background: var(--ficheliens);
 }
 
 .archives {
+    background: var(--ficheliens);
     width: 512px;
     border: 2px solid #eaeaea;
     outline: 10px solid white;
@@ -266,9 +273,11 @@ relation span {
     line-height: 1.2;
     border-radius: 5px;
     flex-grow: 1;
+    
 }
 
 .archives span {
+    background: var(--ficheliens);
     padding: 0.2rem;
     display: block;
     border-radius: 5px;
@@ -282,10 +291,11 @@ relation span {
 }
 
 .archives a {
-    background: var(--funnybg);
-    color: transparent;
-    padding: 5px;
-    background-clip: text;
-    -webkit-background-clip: text;
-    border: none;
+    background: var(--ficheliens) !important;
+    color: transparent !important;
+    padding: 5px !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    border: none !important;
+    
 }
