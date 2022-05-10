@@ -9,14 +9,17 @@
 }
 
 .ficheliens_titles {
-    font-family: bebas neue;
-    font-size: 30px;
-    padding: 0.5em;
-    width: 486px;
-    margin: 0;
-    color: white;
-    outline: 10px solid white;
-    background:var(--ficheliens);
+	font-family: bebas neue;
+	font-size: 58px;
+	padding: 16px;
+	width: 469px;
+	margin: 0;
+	color: transparent;
+	background: var(--ficheliens);
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-shadow: white 5px 5px 0;
+	text-align: right;
 }
 
 .ficheliens_img {
