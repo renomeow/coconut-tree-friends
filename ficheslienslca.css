@@ -86,6 +86,7 @@ ul.nametype li {
     outline: 10px solid white;
     display: flex;
     flex-wrap: wrap;
+    background: var(--ficheliens);
 }
 
 .relationbox * {
@@ -264,7 +265,7 @@ relation span {
     overflow-x: hidden;
     overflow-y: hidden;
 }
-
+     
 .archives p {
     margin: 10px;
     background-color: white;
