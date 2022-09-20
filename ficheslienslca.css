@@ -303,3 +303,101 @@ relation span {
     border: none !important;
     
 }
+
+/* SHOOTING STAR CSS*/
+.classementwrapper{
+    display:flex;
+    flex-direction:column;
+    width:min-content;
+    padding:10px;
+    padding-bottom:0;
+    font-family: Playfair Display;
+    font-weight:bold;
+
+    background:white;
+    border:1px solid #efefef;
+}
+
+.classementwrapper .item{
+    display:flex;
+    height:140px;
+    width:430px;
+    position:relative;
+    padding:5px;
+
+    background:linear-gradient(to right, transparent, #f9f9f9);
+    border:1px solid #efefef;
+    margin-bottom:10px;
+}
+
+.classementwrapper .imageborder{
+    height:100px;
+    width:100px;
+    padding:10px;
+
+    border-radius:100px;
+}
+
+.classementwrapper .icon{
+    height: 100px;
+    width: 100px;
+    border-radius:100px;
+    display:grid;
+    place-items:center;
+}
+
+.candidat--name{
+    font-size:30px;
+    text-transform:uppercase;
+    display:grid;
+    place-items:top;
+    line-height:1;
+
+    margin-top:30px;
+    margin-left:10px
+
+}
+
+.candidat--rank{
+    all:unset;
+    font-size:130px;
+    line-height:1;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+
+    color:#dcdcdc;
+}
+
+.c--kg .candidat--name{color:#74C5ED;}
+.c--kg .imageborder{background:linear-gradient(to left, white, #74C5ED);}
+
+.c--wdl .candidat--name{color:#9C51E8;}
+.c--wdl .imageborder{background:linear-gradient(to left, white, #9C51E8);}
+
+.c--ym .candidat--name{color:#98EB96;}
+.c--ym .imageborder{background:linear-gradient(to left, white, #98EB96);}
+
+.c--fe .candidat--name{color:#E8D67B;}
+.c--fe .imageborder{background:linear-gradient(to left, white, #E8D67B);}
+
+.c--ne .candidat--name{color:#EA7373;}
+.c--ne .imageborder{background:linear-gradient(to left, white, #EA7373);}
+
+
+
+.item.second .candidat--rank, .item.third .candidat--rank, .item.winner .candidat--rank{
+    color:white;
+}
+
+.item.winner{
+    background:linear-gradient(to right, transparent, #ffeac2);
+}
+.item.second{
+    background:linear-gradient(to right, transparent, #e9e9e9);
+}
+
+.item.third{
+    background:linear-gradient(to right, transparent, #f1e7e4);
+}
+/*END*/
