@@ -328,7 +328,7 @@
 	transition: 1s;
 }
 
-#switcheroo::after {
+/*#switcheroo::after {
 	content: url(https://i.imgur.com/wZYVJgT.png);
 	left: 100%;
 	position: absolute;
@@ -348,4 +348,4 @@
 #switcheroo:hover {
 	margin-left: 0px;
 	transition: 1s;
-}
+}*/
