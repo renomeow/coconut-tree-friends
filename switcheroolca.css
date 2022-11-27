@@ -360,16 +360,15 @@
   margin-left:-80px !important;
   transition:0.5s;
 }
-
 #switcheroo-open {
 	position: absolute;
 	appearance: none;
 	background-color: transparent;
-	top: 5em;
+	top: 9em;
 	left: 10em;
 	width: 4em;
 	height: 4em;
-	border: 0;
+	border: 0px;
 	background-image: url(https://i.imgur.com/wZYVJgT.png);
 	background-size: cover;
 }
