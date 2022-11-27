@@ -349,3 +349,27 @@
 	margin-left: 0px;
 	transition: 1s;
 }*/
+
+
+.opened{
+  margin-left:0px !important;
+  transition:0.5s;
+}
+
+.closed{
+  margin-left:-80px !important;
+  transition:0.5s;
+}
+
+#switcheroo-open {
+	position: absolute;
+	appearance: none;
+	background-color: transparent;
+	top: 5em;
+	left: 10em;
+	width: 4em;
+	height: 4em;
+	border: 0;
+	background-image: url(https://i.imgur.com/wZYVJgT.png);
+	background-size: cover;
+}
