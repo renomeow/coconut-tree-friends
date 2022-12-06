@@ -24,72 +24,96 @@ color: var(--staff-f);
 
 ymi{
 color: var(--ym-f);
+font-style:italic;
 }
 
 kgi{
 color: var(--kg-f);
+font-style:italic;
 }
 
 fei{
 color: var(--fe-f);
+font-style:italic;
 }
 
 wdli{
 color: var(--wdl-f);
+font-style:italic; 
 }
 
 nei{
 color: var(--ne-f);
+font-style:italic;
 }
 
 stfi{
 color: var(--staff-f);
+font-style:italic;
 }
 
 ymu{
 color: var(--ym-f);
+padding-bottom:2px;
+border-bottom:1px solid var(--ym-f);
 }
 
 kgu{
 color: var(--kg-f);
+padding-bottom:2px;
+border-bottom:1px solid var(--kg-f);  
 }
 
 feu{
 color: var(--fe-f);
+padding-bottom:2px;
+border-bottom:1px solid var(--fe-f);  
 }
 
 wdlu{
 color: var(--wdl-f);
+padding-bottom:2px;
+border-bottom:1px solid var(--wdl-f);  
 }
 
 neu{
 color: var(--ne-f);
+padding-bottom:2px;
+border-bottom:1px solid var(--ne-f);  
 }
 
 stfu{
 color: var(--staff-f);
+padding-bottom:2px;
+border-bottom:1px solid var(--staff-f);
 }
 
 ymb{
 color: var(--ym-f);
+font-weight:bold;
 }
 
 kgb{
 color: var(--kg-f);
+font-weight:bold;
 }
 
 feb{
 color: var(--fe-f);
+font-weight:bold;
 }
 
 wdlb{
 color: var(--wdl-f);
+font-weight:bold;
 }
 
 neb{
 color: var(--ne-f);
+font-weight:bold;
 }
 
 stfb{
 color: var(--staff-f);
+font-weight:bold;
 }
