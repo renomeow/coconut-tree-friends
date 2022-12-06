@@ -1,0 +1,23 @@
+ym{
+color: var(--ym-f);
+}
+
+kg{
+color: var(--kg-f);
+}
+
+fe{
+color: var(--fe-f);
+}
+
+wdl{
+color: var(--wdl-f);
+}
+
+ne{
+color: var(--ne-f);
+}
+
+stf{
+color: var(--staff-f);
+}
