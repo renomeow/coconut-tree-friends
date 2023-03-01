@@ -369,6 +369,13 @@
 	width: 4em;
 	height: 4em;
 	border: 0px;
-	background-image: url(https://i.imgur.com/wZYVJgT.png);
-	background-size: cover;
+}
+
+#switcheroo-open path {
+	fill: var(--sombre);
+}
+
+#switcheroo-open svg {
+	height: 2rem;
+	width: 2rem;
 }
