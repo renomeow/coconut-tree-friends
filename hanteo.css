@@ -1,7 +1,3 @@
-body {
-  background-color: #efefef;
-}
-
 .hanteo__body {
   width: 500px;
   margin: auto;
@@ -48,14 +44,13 @@ rankhanteo {
 
 .hanteo__title {
   position: relative;
-  left: 5rem;
   font-family: inter;
   font-weight: bolder;
   font-style: italic;
   font-size: 1rem;
   color: #b5b5b5;
   background-color: #fff;
-  left: 0rem;
+  left: 0;
   padding: 0 0.4rem;
   border-radius: 1.3rem 10rem 0 0;
   width: 15.3rem;
@@ -81,7 +76,7 @@ rankhanteo {
   font-style: italic;
 }
 
-albums {
+albumscount {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -111,14 +106,14 @@ albums {
   text-align: right;
 }
 
-.wrapped:nth-child(1) .album__line {
+.wrapped:nth-of-type(1) .album__line {
   background-image: linear-gradient(-45deg, #ffe9be, transparent);
 }
 
-.wrapped:nth-child(2) .album__line {
+.wrapped:nth-of-type(2) .album__line {
   background-image: linear-gradient(-45deg, #ccc, transparent);
 }
 
-.wrapped:nth-child(3) .album__line {
+.wrapped:nth-of-type(3) .album__line {
   background-image: linear-gradient(-45deg, #ccaf9a, transparent);
 }/*# sourceMappingURL=style.css.map */
