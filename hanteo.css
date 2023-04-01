@@ -1,0 +1,120 @@
+.hanteo__body {
+  width: 500px;
+  margin: auto;
+  font-family: poppins;
+}
+
+.albumwrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background-color: white;
+  border: 1px solid #efefef;
+  padding: 1rem;
+}
+
+.album__line img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 0 0 0 0.3rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.album__line {
+  background-color: rgba(245, 244, 243, 0.6705882353);
+  border-bottom: 1px solid #efefef;
+  position: relative;
+}
+
+rank {
+  position: absolute;
+  z-index: 999;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  top: 1rem;
+  left: 3rem;
+  background-color: #fff;
+  border-radius: 999px;
+}
+
+.hanteo__title {
+  position: relative;
+  left: 5rem;
+  font-family: inter;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 1rem;
+  color: #b5b5b5;
+  background-color: #fff;
+  left: 0rem;
+  padding: 0 0.4rem;
+  border-radius: 1.3rem 10rem 0 0;
+  width: 15.3rem;
+  display: block;
+  background-image: linear-gradient(0deg, #ececec, #f8f7f7);
+}
+
+.hanteo__infobox {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 1rem;
+  text-align: right;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hanteo__artist {
+  font-family: playfair display;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+albums {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  left: 6rem;
+  font-size: 1.6rem;
+}
+
+.albumheader {
+  display: flex;
+  gap: 6rem;
+  background-color: #f8f7f7;
+  padding: 0.5rem 1rem;
+  font-weight: bolder;
+  color: #6c6c6c;
+}
+
+.hanteo__maintitle {
+  font-size: 3rem;
+  font-family: playfair display;
+  font-style: italic;
+  text-transform: lowercase;
+  font-weight: bolder;
+  color: #797979;
+  text-align: right;
+}
+
+.wrapped:nth-child(1) .album__line {
+  background-image: linear-gradient(-45deg, #ffe9be, transparent);
+}
+
+.wrapped:nth-child(2) .album__line {
+  background-image: linear-gradient(-45deg, #ccc, transparent);
+}
+
+.wrapped:nth-child(3) .album__line {
+  background-image: linear-gradient(-45deg, #ccaf9a, transparent);
+}
