@@ -372,7 +372,7 @@
 }
 
 #switcheroo-open path {
-	fill: var(--sombre);
+	fill: rgba(255,255,255,0.8);
 }
 
 #switcheroo-open svg {
