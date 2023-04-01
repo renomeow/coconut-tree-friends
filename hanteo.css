@@ -1,3 +1,4 @@
+
 .hanteo__body {
   width: 500px;
   margin: auto;
@@ -25,6 +26,7 @@
   background-color: rgba(245, 244, 243, 0.6705882353);
   border-bottom: 1px solid #efefef;
   position: relative;
+  color: #434343;
 }
 
 rankhanteo {
@@ -106,6 +108,10 @@ albumscount {
   text-align: right;
 }
 
+.wrapped {
+  margin-top: 0.5rem;
+}
+
 .wrapped:nth-of-type(1) .album__line {
   background-image: linear-gradient(-45deg, #ffe9be, transparent);
 }
@@ -116,4 +122,4 @@ albumscount {
 
 .wrapped:nth-of-type(3) .album__line {
   background-image: linear-gradient(-45deg, #ccaf9a, transparent);
-}/*# sourceMappingURL=style.css.map */
+}
