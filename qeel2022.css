@@ -15,17 +15,19 @@
       letter-spacing: 1px;
   }
   
-  .qeelgroup {
-      background: url(https://i.imgur.com/3FbGyWS.png), var(--eee);
-      border: var(--bord-g);
-      display: flex;
-      grid-column: 1/19;
-      grid-row: 1/25;
-      flex-direction: column;
-      justify-content: space-between;
-      font-weight: 700;
-      background-blend-mode: difference;
-  }
+.qeelgroup {
+	background: url(https://i.imgur.com/3FbGyWS.png), var(--eee);
+	border: var(--bord-g);
+	display: flex;
+	grid-column: 1/45;
+	grid-row: 1/9;
+	flex-direction: column;
+	justify-content: space-between;
+	font-weight: 700;
+	background-blend-mode: difference;
+	/* display: none; */
+	overflow: hidden;
+}
   
   .qgroup.wdl {background: var(--wdl-l);border-color: var(--wdl-f);}
   .qgroup a {
@@ -58,16 +60,16 @@
       margin-right: 0;
   }
   
-  .qgroup {
-      border: var(--bord-g);
-      font-family: var(--montserrat);
-      font-size: .7rem;
-      font-style: italic;
-      line-height: 240%;
-      padding: .5em;
-      text-transform: uppercase;
-      margin-right: 3rem;
-  }
+.qgroup {
+	border: var(--bord-g);
+	font-family: var(--montserrat);
+	font-size: .7rem;
+	font-style: italic;
+	line-height: 240%;
+	padding: .5em;
+	text-transform: uppercase;
+	margin-right: 3rem;
+}
   
   .qeelttlone {
       grid-row: 1/5;
@@ -91,8 +93,8 @@
       border-width: 1px 0;
       font-size: 12px;
       font-weight: 400;
-      grid-column: 19/45;
-      grid-row: 9/25;
+      grid-column: 1/45;
+      grid-row: 15/25;
       letter-spacing: 1px;
       padding: 10px;
       text-shadow: var(--o-blanche);
@@ -110,9 +112,9 @@
       line-height: 25px;
   }
   
-  .qeelpopun {grid-row: 1/3;border-width: 1px 0 1px 0;}
-  .qeelpopdeux {grid-row: 3/5;border-width: 0;}
-  .qeelpoptrois {grid-row: 5/7;border-width: 1px 0 0 0;}
+  .qeelpopun {grid-row: 9/11;border-width: 1px 0 1px 0;}
+  .qeelpopdeux {grid-row: 11/13;border-width: 0;}
+  .qeelpoptrois {grid-row: 13/15;border-width: 1px 0 0 0;}
   .qeelpoptext {
       font-size: 9px;
       text-align: left;
