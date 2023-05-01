@@ -4,7 +4,7 @@
     border: 5px solid var(--blanc);
     display: grid;
     grid-template-columns: repeat(63,13px);
-    grid-template-rows: repeat(21,13px);
+    grid-template-rows: repeat(24,13px);
     width: 823px;
     outline: var(--bord-g);
     font-family:var(--montserrat);}
@@ -20,7 +20,7 @@
       border: var(--bord-g);
       display: flex;
       grid-column: 1/19;
-      grid-row: 1/22;
+      grid-row: 1/25;
       flex-direction: column;
       justify-content: space-between;
       font-weight: 700;
@@ -37,11 +37,15 @@
   
   .qgroup.qym {background: var(--ym-l);border: 1px solid var(--ym-f);}
   
-  
   .qgroup.qfe {background: var(--fe-l);border: 1px solid var(--fe-f);}
   
   .qgroup.qne {background: var(--ne-l);border: 1px solid var(--ne-f);}
-  
+
+.qgroup.qdreamers {
+	background-color: #F8BBD0;
+	border: 1px solid #cd90a5;
+}  
+
   .qgroup.qstaff {background: var(--staff-l);border: 1px solid var(--staff-f);}
   
   .qgroup:nth-child(2n+1){border-radius: 0 50px 50px 0;}
@@ -79,7 +83,7 @@
   }
   .qeelconn a {font-size: 8px; line-height:138%;word-spacing: 2;letter-spacing: 1px;}
   .qeelconn {border: var(--gris) 0 solid;
-    border-width: 0 1px 1px;grid-column: 45/65;grid-row: 5/22;	overflow: hidden scroll;padding: 14px;text-transform: uppercase;
+    border-width: 0 1px 1px;grid-column: 45/65;grid-row: 5/25;	overflow: hidden scroll;padding: 14px;text-transform: uppercase;
     background: var(--eee);text-shadow: var(--o-blanche);}
   .qeelprez {
       background: var(--eee);
@@ -88,7 +92,7 @@
       font-size: 12px;
       font-weight: 400;
       grid-column: 19/45;
-      grid-row: 9/22;
+      grid-row: 9/25;
       letter-spacing: 1px;
       padding: 10px;
       text-shadow: var(--o-blanche);
