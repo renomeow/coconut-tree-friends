@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(63,13px);
     grid-template-rows: repeat(24,13px);
-    font-family:var(--montserrat);}
+    font-family:poppins;}
   
   .ttlonetexte {
       font-size: 10Px;
