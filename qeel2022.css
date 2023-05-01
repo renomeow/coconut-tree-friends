@@ -81,21 +81,18 @@
 	border-radius: 7px;
 	z-index: 0;
 }
-  
+
 .qeelttlone {
 	grid-row: 1/5;
 	grid-column: 45 / 65;
 	border: var(--bord-g);
-	text-align: left;
-	text-transform: uppercase;
 	font-weight: bold;
 	background: var(--grad);
-	font-size: 12px;
-	line-height: 5;
 	color: var(--blanc);
-	padding-left: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
   .qeelconn a {
 	font-size: 10px;
 	line-height: 1.1;
