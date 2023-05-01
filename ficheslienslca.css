@@ -63,6 +63,82 @@
 
 /*FIN*/
 
+/*ANCIENNE FICHE DE LIENS*/
+/****************FICHE DE LIENS*********************/
+.app-tracker{padding: 15px;height: 120px;width: 120px;float: left;background: var(--clair);}
+.app-tracker img{height: 112px;width: 112px;border: solid 4px var(--lgt2);outline: solid 1px var(--clair);object-fit: cover;}
+.app-tracktext {background: #f5f5f5;border: solid 1px #d5d5d5;display: inline-block;height: 128px;margin-bottom: 5px;margin-right: -5px;padding: 10px;width: 232px;}
+.app-tracktitle {
+	background: var(--clair);
+	height: 48px;
+	margin-left: -10px;
+	margin-top: -10px;
+	overflow: hidden;
+	position: absolute;
+	width: 252px;
+}
+.app-tracktitle h1{color: var(--blanc);font:italic normal 18px poppins;text-align: left;
+  margin-left: 20px;margin-top: 7px;}
+.app-tracktitle h1 span{font-weight: bold;color:var(--sombre);}
+.app-tracktitle h2{color: var(--blanc);font:bold 8px poppins;letter-spacing: 2px;text-align: left;
+  text-transform: uppercase;margin-left: 20px;margin-top: -10px;}
+.app-tracktitle h2 span{font-weight: 800;color: var(--sombre);}
+.app-tracktext h3{margin-top: 45px;color: #949494;font:normal 11px/12px poppins;text-align: justify; height: 83px; overflow: auto;}
+.app-tracktext h3 b {
+	color: var(--sombre);font-weight: 700;font-family: roboto;
+}
+
+#trackadmin,#trackkg,#trackflow,#trackym,#trackwdl,#tracknewedge,#trackstaff{margin-top: -20px;margin-bottom:-10px;}
+
+#trackkg .app-tracker,#trackkg .app-tracktitle  {background: #77aace80;}
+#trackkg .app-tracker img {outline: solid 1px #77aace;}
+#trackkg .app-tracktitle h1 span,#trackkg .app-tracktext h3 b,#trackkg .app-tracktitle h2 span {color: #77aace;}
+
+#trackflow .app-tracker,#trackflow .app-tracktitle {background: #cec37780;}
+#trackflow .app-tracker img {outline: solid 1px #cec377;}
+#trackflow .app-tracktitle h1 span,#trackflow .app-tracktext h3 b ,#trackflow .app-tracktitle h2 span {color: #cec377;}
+
+#trackym .app-tracker {background: #91ce7780;}
+#trackym .app-tracker img {outline: solid 1px #91ce77;}
+#trackym .app-tracktitle {background: #91ce7780;}
+#trackym .app-tracktitle h1 span {color: #91ce77;}
+#trackym .app-tracktext h3 b {color: #91ce77;}
+#trackym .app-tracktitle h2 span {color: #91ce77;}
+
+#trackwdl .app-tracker {background: var(--wdl-l);}
+#trackwdl .app-tracker img {outline: solid 1px var(--wdl-f);}
+#trackwdl .app-tracktitle {background: var(--wdl-l);}
+#trackwdl .app-tracktitle h1 span {color: var(--wdl-f);}
+#trackwdl .app-tracktext h3 b {color: var(--wdl-f);}
+#trackwdl .app-tracktitle h2 span {color: var(--wdl-f);}
+
+#tracknewedge .app-tracker {background: #ce777780;}
+#tracknewedge .app-tracker img {outline: solid 1px #ce7777;}
+#tracknewedge .app-tracktitle {background: #ce777780;}
+#tracknewedge .app-tracktitle h1 span {color: #ce7777;}
+#tracknewedge .app-tracktext h3 b {color: #ce7777;}
+#tracknewedge .app-tracktitle h2 span {color: #ce7777;}
+
+#trackstaff .app-tracker {background: #ce77b780;}
+#trackstaff .app-tracker img {outline: solid 1px #ce77b7;}
+#trackstaff .app-tracktitle {background: #ce77b780;}
+#trackstaff .app-tracktitle h1 span {color: #ce77b7;}
+#trackstaff .app-tracktext h3 b {color: #ce77b7;}
+#trackstaff .app-tracktitle h2 span {color: #ce77b7;}
+
+.app-movie1{padding: 5px;border: 1px solid var(--eee);float: left; margin: 5px; background: var(--blanc);}
+.app-movie1 img{width:200px;height:320px;object-fit:cover;}
+.app-movie2{background: #f7f7f7;border: 1px solid var(--eee); color: #949494; font-family: poppins;font-size: 11px; font-style: normal;
+    font-variant: normal;font-weight: 400;line-height: 12px; padding: 0 20px 20px; text-align: justify; width: 205px;
+    margin-left: 0; margin-top: 5px; height: 310px;overflow: auto;}
+.app-movie2 h1{border-bottom: 1px solid #e2e2e2;color: var(--sombre);font-size: 25px; font-style: italic; font-weight: 200;
+    line-height: 25px;margin-bottom: 0;padding: 5px; text-align: left; text-transform: lowercase;}
+.app-movie2 t{color: var(--sombre); display: inline-block;font-family: poppins;font-size: 9px; font-style: normal;
+    font-variant: normal;font-weight: 600;letter-spacing: 1px;line-height: 12px; margin-left: 3px; margin-right: 5px;
+  text-transform: uppercase;}
+    .app-movie2 b {color: var(--sombre); font-weight: 700;}
+/*FIN*/
+
 
 .ficheliens_new {
     width: 480px;
