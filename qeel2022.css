@@ -1,12 +1,8 @@
 /*QEEL 2021*/
 .qeelwrapper {
-    background: var(--blanc);
-    border: 5px solid var(--blanc);
     display: grid;
     grid-template-columns: repeat(63,13px);
     grid-template-rows: repeat(24,13px);
-    width: 823px;
-    outline: var(--bord-g);
     font-family:var(--montserrat);}
   
   .ttlonetexte {
@@ -16,18 +12,15 @@
   }
   
 .qeelgroup {
-	background: url(https://i.imgur.com/3FbGyWS.png), var(--eee);
-	border: var(--bord-g);
 	display: flex;
 	grid-column: 1/45;
 	grid-row: 1/9;
-	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	font-weight: 700;
 	background-blend-mode: difference;
-	/* display: none; */
 	overflow: hidden;
-	column-gap:0.6rem;
+	flex-wrap: wrap;
+	gap: 0.6rem;
 }
   
   .qgroup.wdl {color: var(--wdl-l);border-color: var(--wdl-f);}
@@ -48,7 +41,7 @@
 	  color: var(--staff-l);
 	  ;}
 
-  .qgroup a:link {
+  .qgroup a:link, .qgroup a {
       color: inherit;
   }
   
