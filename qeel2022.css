@@ -42,9 +42,19 @@
 	  color: #E87BC5;
 	  ;}
 
-  .qgroup a:link, .qgroup a {
-      color: inherit;
-  }
+.qgroup a:link, .qgroup a {
+	content: ' ';
+	display: block;
+	background-color: white;
+	height: 29px;
+	width: 132px;
+	position: absolute;
+	border-radius: 7px;
+	color: currentColor;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
   
 .qgroup {
 	min-width: 132px;
@@ -95,9 +105,9 @@
 
   .qeelconn {border: var(--gris) 0 solid;
     border-width: 0 1px 1px;grid-column: 45/65;grid-row: 5/25;	overflow: hidden scroll;padding: 14px;text-transform: uppercase;
-    background: var(--eee);text-shadow: var(--o-blanche);}
+    background: var(--qeelclear);text-shadow: var(--o-blanche);}
   .qeelprez {
-      background: var(--eee);
+      background: var(--qeelclear);
       border: var(--bord-g);
       border-width: 1px 0;
       font-size: 12px;
