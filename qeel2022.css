@@ -27,17 +27,18 @@
 	background-blend-mode: difference;
 	/* display: none; */
 	overflow: hidden;
+	column-gap:0.6rem;
 }
   
   .qgroup.wdl {color: var(--wdl-l);border-color: var(--wdl-f);}
   
-  .qgroup.qkg {color: var(--kg-l);}
+  .qgroup.qkg {color: var(--kg-f);}
   
-  .qgroup.qym {color: var(--ym-l);}
+  .qgroup.qym {color: var(--ym-f);}
   
-  .qgroup.qfe {color: var(--fe-l);}
+  .qgroup.qfe {color: var(--fe-f);}
   
-  .qgroup.qne {color: var(--ne-l);;}
+  .qgroup.qne {color: var(--ne-f);;}
 
 .qgroup.qdreamers {
 	color: #F8BBD0;
@@ -47,16 +48,8 @@
 	  color: var(--staff-l);
 	  ;}
 
-  .qgroup a {
+  .qgroup a:link {
       color: inherit;
-  }
-    
-  .qgroup:nth-child(2n) {
-      border-radius: 50px 0 0 50px;
-      margin-left: 3rem;
-      padding-left: 0;
-      text-align: right;
-      margin-right: 0;
   }
   
 .qgroup {
@@ -68,6 +61,19 @@
 	border-radius: 7px;
 	height: 29px;
 	font-size: 13px;
+	text-transform:capitalize;
+}
+
+.qgroup::after {
+	content: ' ';
+	display: block;
+	background-color: currentColor;
+	height: 29px;
+	width: 132px;
+	position: absolute;
+	transform: rotate(-5deg);
+	border-radius: 7px;
+	z-index: 0;
 }
   
   .qeelttlone {
@@ -127,26 +133,4 @@
   .qeelpopnb {text-align: right;display: block;float: right;padding-right: 10px;text-transform: uppercase;letter-spacing: 1px;font-size: 11px;font-weight:400;
   }
   
-  .qgroup .logok img {
-      background: var(--blanc);
-      border-radius: 100%;
-      height: 1rem;
-      object-fit: cover;
-      padding: 0.5em;
-  }
-  
-  .logok {
-      float: right;
-  }
-  
   .qgroup:nth-child(2n) .logok {float: left;margin-left: 12px;}
-  .qeelttlone .th-hourglass-o {
-      float: right;
-      font-size: 19px;
-      display: block;
-      border: var(--bord-g);
-      padding: 15px;
-      border-width: 0;
-      color: var(--blanc);
-      text-align: center;
-  }
