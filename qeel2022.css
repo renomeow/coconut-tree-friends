@@ -16,6 +16,7 @@
 	grid-column: 1/45;
 	grid-row: 1/9;
 	justify-content: center;
+	align-items:center;
 	font-weight: 700;
 	background-blend-mode: difference;
 	overflow: hidden;
@@ -38,7 +39,7 @@
 }  
 
   .qgroup.qstaff {
-	  color: var(--staff-l);
+	  color: #E87BC5;
 	  ;}
 
   .qgroup a:link, .qgroup a {
@@ -69,19 +70,29 @@
 	z-index: 0;
 }
   
-  .qeelttlone {
-      grid-row: 1/5;
-      grid-column: 45 / 65;
-      border: var(--bord-g);
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: bold;
-      background: url(https://i.imgur.com/3FbGyWS.png),var(--grad);
-      font-size: 12px;
-      line-height: 5;
-      color: var(--blanc);
-  }
-  .qeelconn a {font-size: 8px; line-height:138%;word-spacing: 2;letter-spacing: 1px;}
+.qeelttlone {
+	grid-row: 1/5;
+	grid-column: 45 / 65;
+	border: var(--bord-g);
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: var(--grad);
+	font-size: 12px;
+	line-height: 5;
+	color: var(--blanc);
+	padding-left: 1rem;
+}
+
+  .qeelconn a {
+	font-size: 13px;
+	line-height: 1.1;
+	word-spacing: 2;
+	letter-spacing: 1px;
+	font-family: poppins;
+	font-weight: 300;
+}
+
   .qeelconn {border: var(--gris) 0 solid;
     border-width: 0 1px 1px;grid-column: 45/65;grid-row: 5/25;	overflow: hidden scroll;padding: 14px;text-transform: uppercase;
     background: var(--eee);text-shadow: var(--o-blanche);}
@@ -99,8 +110,9 @@
       text-transform: uppercase;
       overflow:auto;
   }
-  .qeellegend {grid-column: 19/45;grid-row: 7/9;text-align: center;font:bold 8px/26px;border: var(--bord-g);text-transform: uppercase;
-    letter-spacing: 1px;background: var(--eee);border-width: 1px 0 0 0;}
+  .qeellegend {
+	  text-align: center;
+}
   
   .qeelpopdeux, .qeelpoptrois, .qeelpopun {
       background: var(--eee);
