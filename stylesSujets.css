@@ -22,6 +22,10 @@ stf{
 color: var(--staff-f);
 }
 
+dm{
+color: var(--dm-f);
+}
+
 ymi{
 color: var(--ym-f);
 font-style:italic;
@@ -49,6 +53,11 @@ font-style:italic;
 
 stfi{
 color: var(--staff-f);
+font-style:italic;
+}
+
+dmi{
+color: var(--dm-f);
 font-style:italic;
 }
 
@@ -88,6 +97,12 @@ padding-bottom:2px;
 border-bottom:1px solid var(--staff-f);
 }
 
+dmu{
+color: var(--dm-f);
+padding-bottom:2px;
+border-bottom:1px solid var(--dm-f);
+}
+
 ymb{
 color: var(--ym-f);
 font-weight:bold;
@@ -113,7 +128,12 @@ color: var(--ne-f);
 font-weight:bold;
 }
 
-stfb{
+dmb{
 color: var(--staff-f);
+font-weight:bold;
+}
+
+stfb{
+color: var(--dm-f);
 font-weight:bold;
 }
