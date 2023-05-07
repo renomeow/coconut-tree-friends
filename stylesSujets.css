@@ -128,12 +128,12 @@ color: var(--ne-f);
 font-weight:bold;
 }
 
-dmb{
+stfb{
 color: var(--staff-f);
 font-weight:bold;
 }
 
-stfb{
+dmb{
 color: var(--dm-f);
 font-weight:bold;
 }
