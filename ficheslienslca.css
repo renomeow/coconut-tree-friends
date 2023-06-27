@@ -528,7 +528,7 @@ relation span {
 .c--ne .candidat--name{color:#EA7373;}
 .c--ne .imageborder{background:linear-gradient(to left, white, #EA7373);}
 
-.classementwrapper .c--dm .candidat--name{color:var(--dm-f);}
+.classementwrapper .c--dm .candidat--name{color:#DA9DB2;}
 .classementwrapper .c--dm .imageborder{background:linear-gradient(to left, white, var(--dm-f));}
 
 .classementwrapper .item.second .candidat--rank, .classementwrapper .item.third .candidat--rank, .classementwrapper .item.winner .candidat--rank{
