@@ -467,7 +467,7 @@ relation span {
     position:relative;
     padding:5px;
 
-    background:linear-gradient(to right, transparent, #f9f9f9);
+    background:linear-gradient(to right, transparent, var(--dm-f);
     border:1px solid #efefef;
     margin-bottom:10px;
 }
@@ -528,7 +528,8 @@ relation span {
 .c--ne .candidat--name{color:#EA7373;}
 .c--ne .imageborder{background:linear-gradient(to left, white, #EA7373);}
 
-
+.c--dm .candidat--name{color:var(--dm-f);}
+.c--dm .imageborder{background:linear-gradient(to left, white, var(--dm-l);}
 
 .item.second .candidat--rank, .item.third .candidat--rank, .item.winner .candidat--rank{
     color:white;
@@ -543,77 +544,5 @@ relation span {
 
 .item.third{
     background:linear-gradient(to right, transparent, #f1e7e4);
-}
-/*END*/
-
-
-/*STARDOM CSS*/
-.classementwrapperstardom{
-    display:flex;
-    flex-direction:column;
-    width:min-content;
-    padding:10px;
-    padding-bottom:0;
-    font-family: Playfair Display;
-    font-weight:bold;
-
-    background:white;
-    border:1px solid #efefef;
-}
-
-.classementwrapperstardom .item{
-    display:flex;
-    height:140px;
-    width:430px;
-    position:relative;
-    padding:5px;
-
-    background:linear-gradient(to right, transparent, #f9f9f9);
-    border:1px solid #efefef;
-    margin-bottom:10px;
-}
-
-.classementwrapperstardom .imageborder{
-    height:100px;
-    width:100px;
-    padding:10px;
-    margin-top:10px;
-
-    border-radius:100px;
-    background:linear-gradient(to left, white, #74C5ED);
-}
-
-.classementwrapperstardom .icon{
-    height: 100px;
-    width: 100px;
-    border-radius:100px;
-    display:grid;
-    place-items:center;
-}
-
-classementwrapperstardom .candidat--name{
-    font-size:30px;
-    text-transform:uppercase;
-    display:grid;
-    place-items:top;
-    line-height:1;
-    width: 220px;
-
-    margin-top:30px;
-    margin-left:10px;
-
-    color: var(--dm-f);
-
-}
-
-classementwrapperstardom .candidat--rank{
-    all:unset;
-    font-size:130px;
-    line-height:1;
-    position:absolute;
-    bottom:10px;
-    right:10px;
-
-    color:#dcdcdc;
 }
 /*END*/
