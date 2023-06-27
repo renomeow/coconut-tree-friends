@@ -467,7 +467,7 @@ relation span {
     position:relative;
     padding:5px;
 
-    background:linear-gradient(to right, transparent, var(--dm-f);
+    background:linear-gradient(to right, transparent, var(--dm-f));
     border:1px solid #efefef;
     margin-bottom:10px;
 }
@@ -489,7 +489,7 @@ relation span {
     place-items:center;
 }
 
-.candidat--name{
+.classementwrapper .candidat--name{
     font-size:30px;
     text-transform:uppercase;
     display:grid;
@@ -502,7 +502,7 @@ relation span {
 
 }
 
-.candidat--rank{
+.classementwrapper .candidat--rank{
     all:unset;
     font-size:130px;
     line-height:1;
@@ -528,21 +528,21 @@ relation span {
 .c--ne .candidat--name{color:#EA7373;}
 .c--ne .imageborder{background:linear-gradient(to left, white, #EA7373);}
 
-.c--dm .candidat--name{color:var(--dm-f);}
-.c--dm .imageborder{background:linear-gradient(to left, white, var(--dm-l);}
+.classementwrapper .c--dm .candidat--name{color:var(--dm-f);}
+.classementwrapper .c--dm .imageborder{background:linear-gradient(to left, white, var(--dm-f));}
 
-.item.second .candidat--rank, .item.third .candidat--rank, .item.winner .candidat--rank{
+.classementwrapper .item.second .candidat--rank, .classementwrapper .item.third .candidat--rank, .classementwrapper .item.winner .candidat--rank{
     color:white;
 }
 
-.item.winner{
+.classementwrapper .item.winner{
     background:linear-gradient(to right, transparent, #ffeac2);
 }
-.item.second{
+.classementwrapper .item.second{
     background:linear-gradient(to right, transparent, #e9e9e9);
 }
 
-.item.third{
+.classementwrapper .item.third{
     background:linear-gradient(to right, transparent, #f1e7e4);
 }
 /*END*/
