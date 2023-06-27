@@ -467,7 +467,7 @@ relation span {
     position:relative;
     padding:5px;
 
-    background:linear-gradient(to right, transparent, var(--dm-f));
+    background:linear-gradient(to right, transparent, var(--dm-l));
     border:1px solid #efefef;
     margin-bottom:10px;
 }
@@ -510,7 +510,7 @@ relation span {
     bottom:10px;
     right:10px;
 
-    color:#dcdcdc;
+    color:white;
 }
 
 .c--kg .candidat--name{color:#74C5ED;}
