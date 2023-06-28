@@ -84,6 +84,7 @@ rankhanteo {
   justify-content: center;
   align-items: flex-end;
   width: 30%;
+  gap:0.2rem;
 }
 
 .hanteo__left {
@@ -103,7 +104,7 @@ rankhanteo {
 }
 
 albumscount {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .albumheading {
